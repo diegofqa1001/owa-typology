@@ -1,0 +1,617 @@
+{
+  "baseline": {
+    "Guardian": {
+      "a": 0.0929,
+      "alpha": 6.107,
+      "orness": 0.092854,
+      "w": [
+        0.0,
+        0.0005,
+        0.0052,
+        0.0271,
+        0.0953,
+        0.262,
+        0.6099
+      ]
+    },
+    "Sentinel": {
+      "a": 0.3214,
+      "alpha": 1.9095,
+      "orness": 0.321429,
+      "w": [
+        0.0243,
+        0.0671,
+        0.1069,
+        0.1452,
+        0.1825,
+        0.219,
+        0.255
+      ]
+    },
+    "Pragmatist": {
+      "a": 0.5,
+      "alpha": 1.0,
+      "orness": 0.5,
+      "w": [
+        0.1429,
+        0.1429,
+        0.1429,
+        0.1429,
+        0.1429,
+        0.1429,
+        0.1429
+      ]
+    },
+    "Adventurer": {
+      "a": 0.6071,
+      "alpha": 0.6764,
+      "orness": 0.607143,
+      "w": [
+        0.2682,
+        0.1604,
+        0.1352,
+        0.1211,
+        0.1116,
+        0.1045,
+        0.099
+      ]
+    },
+    "Strategist": {
+      "a": 0.6786,
+      "alpha": 0.5081,
+      "orness": 0.678571,
+      "w": [
+        0.3721,
+        0.1571,
+        0.121,
+        0.1023,
+        0.0903,
+        0.0818,
+        0.0753
+      ]
+    },
+    "Analyst": {
+      "a": 0.7235,
+      "alpha": 0.4162,
+      "orness": 0.72347,
+      "w": [
+        0.4449,
+        0.1488,
+        0.1091,
+        0.0894,
+        0.0771,
+        0.0685,
+        0.0621
+      ]
+    },
+    "Innovator": {
+      "a": 0.8173,
+      "alpha": 0.2505,
+      "orness": 0.817348,
+      "w": [
+        0.6142,
+        0.1165,
+        0.0781,
+        0.0604,
+        0.05,
+        0.043,
+        0.0379
+      ]
+    },
+    "Visionary": {
+      "a": 0.9071,
+      "alpha": 0.1177,
+      "orness": 0.907146,
+      "w": [
+        0.7953,
+        0.0676,
+        0.0422,
+        0.0312,
+        0.0249,
+        0.0208,
+        0.018
+      ]
+    }
+  },
+  "worked_example": {
+    "S": [
+      0.8,
+      0.6,
+      0.7,
+      0.5,
+      0.4,
+      0.3,
+      0.9
+    ],
+    "F": {
+      "Guardian": 0.3557,
+      "Sentinel": 0.4929,
+      "Pragmatist": 0.6,
+      "Adventurer": 0.6643,
+      "Strategist": 0.7071,
+      "Analyst": 0.7341,
+      "Innovator": 0.7904,
+      "Visionary": 0.8443
+    },
+    "spread": 0.4886
+  },
+  "label_robustness": {
+    "baseline": {
+      "scores": {
+        "Guardian": 0.0929,
+        "Sentinel": 0.3214,
+        "Pragmatist": 0.5,
+        "Adventurer": 0.6071,
+        "Strategist": 0.6786,
+        "Analyst": 0.7235,
+        "Innovator": 0.8173,
+        "Visionary": 0.9071
+      },
+      "order": [
+        "Guardian",
+        "Sentinel",
+        "Pragmatist",
+        "Adventurer",
+        "Strategist",
+        "Analyst",
+        "Innovator",
+        "Visionary"
+      ],
+      "kendall_tau_vs_baseline": 1.0,
+      "identical_order": true,
+      "range": [
+        0.0929,
+        0.9071
+      ]
+    },
+    "equidistant_triangular": {
+      "scores": {
+        "Guardian": 0.0833,
+        "Sentinel": 0.3214,
+        "Pragmatist": 0.5,
+        "Adventurer": 0.6071,
+        "Strategist": 0.6786,
+        "Analyst": 0.7262,
+        "Innovator": 0.8214,
+        "Visionary": 0.9167
+      },
+      "order": [
+        "Guardian",
+        "Sentinel",
+        "Pragmatist",
+        "Adventurer",
+        "Strategist",
+        "Analyst",
+        "Innovator",
+        "Visionary"
+      ],
+      "kendall_tau_vs_baseline": 1.0,
+      "identical_order": true,
+      "range": [
+        0.0833,
+        0.9167
+      ]
+    },
+    "wide_overlap": {
+      "scores": {
+        "Guardian": 0.1317,
+        "Sentinel": 0.3393,
+        "Pragmatist": 0.5,
+        "Adventurer": 0.5964,
+        "Strategist": 0.6607,
+        "Analyst": 0.7017,
+        "Innovator": 0.7864,
+        "Visionary": 0.8683
+      },
+      "order": [
+        "Guardian",
+        "Sentinel",
+        "Pragmatist",
+        "Adventurer",
+        "Strategist",
+        "Analyst",
+        "Innovator",
+        "Visionary"
+      ],
+      "kendall_tau_vs_baseline": 1.0,
+      "identical_order": true,
+      "range": [
+        0.1317,
+        0.8683
+      ]
+    },
+    "narrow_overlap": {
+      "scores": {
+        "Guardian": 0.0542,
+        "Sentinel": 0.308,
+        "Pragmatist": 0.5,
+        "Adventurer": 0.6152,
+        "Strategist": 0.692,
+        "Analyst": 0.7426,
+        "Innovator": 0.8447,
+        "Visionary": 0.9458
+      },
+      "order": [
+        "Guardian",
+        "Sentinel",
+        "Pragmatist",
+        "Adventurer",
+        "Strategist",
+        "Analyst",
+        "Innovator",
+        "Visionary"
+      ],
+      "kendall_tau_vs_baseline": 1.0,
+      "identical_order": true,
+      "range": [
+        0.0542,
+        0.9458
+      ]
+    },
+    "skewed_conservative": {
+      "scores": {
+        "Guardian": 0.1008,
+        "Sentinel": 0.3279,
+        "Pragmatist": 0.4927,
+        "Adventurer": 0.5947,
+        "Strategist": 0.6653,
+        "Analyst": 0.7149,
+        "Innovator": 0.8159,
+        "Visionary": 0.9151
+      },
+      "order": [
+        "Guardian",
+        "Sentinel",
+        "Pragmatist",
+        "Adventurer",
+        "Strategist",
+        "Analyst",
+        "Innovator",
+        "Visionary"
+      ],
+      "kendall_tau_vs_baseline": 1.0,
+      "identical_order": true,
+      "range": [
+        0.1008,
+        0.9151
+      ]
+    }
+  },
+  "dimension_weight_robustness": {
+    "draws": 10000,
+    "concentration": 50.0,
+    "pct_identical_order": 100.0,
+    "mean_kendall_tau": 1.0,
+    "p05_kendall_tau": 1.0,
+    "mean_min_separation": 0.0448
+  },
+  "breaking_point": {
+    "50": {
+      "pct_identical": 100.0,
+      "mean_tau": 1.0,
+      "first_inversion_pct": {}
+    },
+    "20": {
+      "pct_identical": 100.0,
+      "mean_tau": 1.0,
+      "first_inversion_pct": {
+        "Strategist<->Analyst": 0.0,
+        "Adventurer<->Strategist": 0.0
+      }
+    },
+    "10": {
+      "pct_identical": 99.0,
+      "mean_tau": 0.9993,
+      "first_inversion_pct": {
+        "Strategist<->Analyst": 0.8,
+        "Adventurer<->Strategist": 0.2
+      }
+    },
+    "5": {
+      "pct_identical": 93.8,
+      "mean_tau": 0.9949,
+      "first_inversion_pct": {
+        "Strategist<->Analyst": 4.0,
+        "Adventurer<->Strategist": 2.1,
+        "Pragmatist<->Adventurer": 0.1,
+        "Analyst<->Innovator": 0.0
+      }
+    },
+    "2": {
+      "pct_identical": 77.3,
+      "mean_tau": 0.9782,
+      "first_inversion_pct": {
+        "Adventurer<->Strategist": 11.3,
+        "Strategist<->Analyst": 8.9,
+        "Pragmatist<->Adventurer": 1.9,
+        "Analyst<->Innovator": 0.6
+      }
+    },
+    "1": {
+      "pct_identical": 61.0,
+      "mean_tau": 0.957,
+      "first_inversion_pct": {
+        "Adventurer<->Strategist": 21.2,
+        "Strategist<->Analyst": 9.9,
+        "Pragmatist<->Adventurer": 6.3,
+        "Analyst<->Innovator": 1.6
+      }
+    },
+    "0.5": {
+      "pct_identical": 46.5,
+      "mean_tau": 0.9361,
+      "first_inversion_pct": {
+        "Adventurer<->Strategist": 29.1,
+        "Pragmatist<->Adventurer": 12.1,
+        "Strategist<->Analyst": 9.2,
+        "Analyst<->Innovator": 3.1
+      }
+    },
+    "0.2": {
+      "pct_identical": 33.7,
+      "mean_tau": 0.9166,
+      "first_inversion_pct": {
+        "Adventurer<->Strategist": 38.0,
+        "Pragmatist<->Adventurer": 15.8,
+        "Strategist<->Analyst": 8.0,
+        "Analyst<->Innovator": 4.4
+      }
+    }
+  },
+  "adjacent_separations": {
+    "Guardian->Sentinel": 0.2286,
+    "Sentinel->Pragmatist": 0.1786,
+    "Pragmatist->Adventurer": 0.1071,
+    "Adventurer->Strategist": 0.0714,
+    "Strategist->Analyst": 0.0449,
+    "Analyst->Innovator": 0.0939,
+    "Innovator->Visionary": 0.0898
+  },
+  "leave_one_out": {
+    "D1 Risk tolerance": {
+      "order": [
+        "Guardian",
+        "Sentinel",
+        "Pragmatist",
+        "Adventurer",
+        "Strategist",
+        "Analyst",
+        "Innovator",
+        "Visionary"
+      ],
+      "tau": 1.0,
+      "identical": true
+    },
+    "D2 Loss aversion": {
+      "order": [
+        "Guardian",
+        "Sentinel",
+        "Pragmatist",
+        "Adventurer",
+        "Strategist",
+        "Analyst",
+        "Innovator",
+        "Visionary"
+      ],
+      "tau": 1.0,
+      "identical": true
+    },
+    "D3 Financial self-efficacy": {
+      "order": [
+        "Guardian",
+        "Sentinel",
+        "Pragmatist",
+        "Adventurer",
+        "Strategist",
+        "Analyst",
+        "Innovator",
+        "Visionary"
+      ],
+      "tau": 1.0,
+      "identical": true
+    },
+    "D4 Ambiguity tolerance": {
+      "order": [
+        "Guardian",
+        "Sentinel",
+        "Pragmatist",
+        "Adventurer",
+        "Strategist",
+        "Analyst",
+        "Innovator",
+        "Visionary"
+      ],
+      "tau": 1.0,
+      "identical": true
+    },
+    "D5 Investment horizon": {
+      "order": [
+        "Guardian",
+        "Sentinel",
+        "Pragmatist",
+        "Adventurer",
+        "Strategist",
+        "Analyst",
+        "Innovator",
+        "Visionary"
+      ],
+      "tau": 1.0,
+      "identical": true
+    },
+    "D6 Emotional regulation": {
+      "order": [
+        "Guardian",
+        "Sentinel",
+        "Pragmatist",
+        "Adventurer",
+        "Strategist",
+        "Analyst",
+        "Innovator",
+        "Visionary"
+      ],
+      "tau": 1.0,
+      "identical": true
+    },
+    "D7 Perceived social influence": {
+      "order": [
+        "Guardian",
+        "Sentinel",
+        "Pragmatist",
+        "Adventurer",
+        "Strategist",
+        "Analyst",
+        "Innovator",
+        "Visionary"
+      ],
+      "tau": 1.0,
+      "identical": true
+    }
+  },
+  "classification_stability": {
+    "0.05": {
+      "per_profile_pct": {
+        "Guardian": 100.0,
+        "Sentinel": 100.0,
+        "Pragmatist": 100.0,
+        "Adventurer": 100.0,
+        "Strategist": 100.0,
+        "Analyst": 100.0,
+        "Innovator": 99.8,
+        "Visionary": 99.8
+      },
+      "overall_pct": 100.0,
+      "mean_abs_orness_error": 0.0
+    },
+    "0.1": {
+      "per_profile_pct": {
+        "Guardian": 100.0,
+        "Sentinel": 99.7,
+        "Pragmatist": 99.3,
+        "Adventurer": 99.5,
+        "Strategist": 96.8,
+        "Analyst": 97.5,
+        "Innovator": 93.5,
+        "Visionary": 93.3
+      },
+      "overall_pct": 97.4,
+      "mean_abs_orness_error": 0.0024
+    },
+    "0.15": {
+      "per_profile_pct": {
+        "Guardian": 98.8,
+        "Sentinel": 95.0,
+        "Pragmatist": 90.2,
+        "Adventurer": 94.2,
+        "Strategist": 84.2,
+        "Analyst": 87.5,
+        "Innovator": 76.3,
+        "Visionary": 82.8
+      },
+      "overall_pct": 88.6,
+      "mean_abs_orness_error": 0.0128
+    },
+    "0.2": {
+      "per_profile_pct": {
+        "Guardian": 92.8,
+        "Sentinel": 88.0,
+        "Pragmatist": 79.7,
+        "Adventurer": 86.0,
+        "Strategist": 67.8,
+        "Analyst": 76.0,
+        "Innovator": 59.5,
+        "Visionary": 69.2
+      },
+      "overall_pct": 77.4,
+      "mean_abs_orness_error": 0.0289
+    }
+  },
+  "ranking_divergence": {
+    "asset_sets": 1000,
+    "assets_per_set": 10,
+    "criteria": 7,
+    "mean_kendall_tau_guardian_vs_visionary": 0.0491,
+    "pct_different_top_asset": 68.5
+  },
+  "orness_schemes": {
+    "derived (this paper)": {
+      "orness": [
+        0.0929,
+        0.3214,
+        0.5,
+        0.6071,
+        0.6786,
+        0.7235,
+        0.8173,
+        0.9071
+      ],
+      "F": [
+        0.3557,
+        0.4929,
+        0.6,
+        0.6643,
+        0.7071,
+        0.7341,
+        0.7904,
+        0.8443
+      ],
+      "spread": 0.4886,
+      "mean_gap": 0.1163,
+      "sd_gap": 0.0596
+    },
+    "equispaced 0.158-0.865": {
+      "orness": [
+        0.158,
+        0.259,
+        0.36,
+        0.461,
+        0.562,
+        0.663,
+        0.764,
+        0.865
+      ],
+      "F": [
+        0.3948,
+        0.4554,
+        0.516,
+        0.5766,
+        0.6372,
+        0.6978,
+        0.7584,
+        0.819
+      ],
+      "spread": 0.4242,
+      "mean_gap": 0.101,
+      "sd_gap": 0.0
+    },
+    "octiles (2k-1)/16": {
+      "orness": [
+        0.0625,
+        0.1875,
+        0.3125,
+        0.4375,
+        0.5625,
+        0.6875,
+        0.8125,
+        0.9375
+      ],
+      "F": [
+        0.3375,
+        0.4125,
+        0.4875,
+        0.5625,
+        0.6375,
+        0.7125,
+        0.7875,
+        0.8625
+      ],
+      "spread": 0.525,
+      "mean_gap": 0.125,
+      "sd_gap": 0.0
+    }
+  },
+  "numerical_checks": {
+    "max_abs_orness_error": 2.986499936241671e-14,
+    "max_abs_weight_sum_error": 0.0,
+    "strict_monotonicity": true
+  }
+}
