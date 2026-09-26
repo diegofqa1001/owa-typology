@@ -75,3 +75,12 @@ See `CITATION.cff`.
 ## License
 
 MIT — see `LICENSE`.
+
+## Cadena del Capítulo 3 de la tesis (`tesis_cap3/`)
+
+`tesis_cap3/cadena_cap3.py` reconstruye la cadena que emplea la monografía doctoral (Cap. 3, Tablas 3.3, 3.4 y 3.6): vector lingüístico → defuzzificación por centro de gravedad → vector direccional (D5 y D12 invertidas) → regla de orden → rango *k* → centroide de diseño *c_k* (parametrización histórica v1) → exponente RIM exacto → contraste con los valores congelados v1 de `A-Fuzzy-OWA-Taxonomy-of-Investor-Risk-Profiles/data/owa/owa_profiles.json` → anclas canónicas por octiles (2k−1)/16. La tesis ordena los perfiles por el núcleo de actitud ante el riesgo (media de D1 y de D5 invertida) y, a igualdad, por la media de las cinco dimensiones moduladoras; el puntaje actitudinal uniforme de `owa_typology.attitude_score` (línea base del artículo) se reporta como ordenación alternativa. Salida: `results/cadena_cap3.json`; pruebas: `tesis_cap3/test_cadena_cap3.py`.
+
+```bash
+OMP_NUM_THREADS=1 python tesis_cap3/cadena_cap3.py
+python -m pytest -q
+```
