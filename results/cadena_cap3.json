@@ -1,0 +1,483 @@
+{
+  "cog_etiquetas": {
+    "VL": 0.092857,
+    "L": 0.25,
+    "M": 0.5,
+    "H": 0.75,
+    "VH": 0.907143
+  },
+  "reglas_de_orden": {
+    "orden_tesis_tabla_3_3": [
+      "P1",
+      "P2",
+      "P3",
+      "P6",
+      "P4",
+      "P5",
+      "P7",
+      "P8"
+    ],
+    "orden_por_centroide_diseno": [
+      "P1",
+      "P2",
+      "P3",
+      "P6",
+      "P4",
+      "P5",
+      "P7",
+      "P8"
+    ],
+    "a_media_uniforme_7_dimensiones": [
+      "P1",
+      "P2",
+      "P3",
+      "P5",
+      "P4",
+      "P6",
+      "P7",
+      "P8"
+    ],
+    "a_coincide_con_tesis": false,
+    "b_lexicografica_nucleo_luego_moduladoras": [
+      "P1",
+      "P2",
+      "P3",
+      "P6",
+      "P4",
+      "P5",
+      "P7",
+      "P8"
+    ],
+    "b_coincide_con_tesis": true,
+    "peso_nucleo_uniforme": 0.2857,
+    "umbral_P6_P4": 0.4745,
+    "umbral_P4_P5": 0.5455,
+    "intervalo_peso_nucleo_que_reproduce_tesis": [
+      0.5455,
+      1.0
+    ],
+    "nota": "Con peso del núcleo w en (omega*, 1) la ponderación convexa reproduce el orden de la tesis; en w = 1 Pragmático y Analista empatan (0,5) y el desempate lexicográfico por moduladoras reproduce el mismo orden."
+  },
+  "perfiles": {
+    "P1": {
+      "nombre": "Guardián",
+      "vector": [
+        "VL",
+        "VH",
+        "VL",
+        "VL",
+        "VL",
+        "VL",
+        "VH"
+      ],
+      "centroide_diseno_v1": 0.15,
+      "direccional": [
+        0.0929,
+        0.0929,
+        0.0929,
+        0.0929,
+        0.0929,
+        0.0929,
+        0.0929
+      ],
+      "media_uniforme_7": 0.0929,
+      "nucleo_D1_D5inv": 0.0929,
+      "moduladoras_5": 0.0929
+    },
+    "P2": {
+      "nombre": "Centinela",
+      "vector": [
+        "L",
+        "H",
+        "M",
+        "L",
+        "M",
+        "L",
+        "H"
+      ],
+      "centroide_diseno_v1": 0.25,
+      "direccional": [
+        0.25,
+        0.25,
+        0.5,
+        0.25,
+        0.5,
+        0.25,
+        0.25
+      ],
+      "media_uniforme_7": 0.3214,
+      "nucleo_D1_D5inv": 0.25,
+      "moduladoras_5": 0.35
+    },
+    "P3": {
+      "nombre": "Pragmático",
+      "vector": [
+        "M",
+        "M",
+        "M",
+        "M",
+        "M",
+        "M",
+        "M"
+      ],
+      "centroide_diseno_v1": 0.5,
+      "direccional": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "media_uniforme_7": 0.5,
+      "nucleo_D1_D5inv": 0.5,
+      "moduladoras_5": 0.5
+    },
+    "P6": {
+      "nombre": "Analista",
+      "vector": [
+        "M",
+        "M",
+        "VH",
+        "H",
+        "H",
+        "H",
+        "VL"
+      ],
+      "centroide_diseno_v1": 0.6,
+      "direccional": [
+        0.5,
+        0.5,
+        0.9071,
+        0.75,
+        0.75,
+        0.75,
+        0.9071
+      ],
+      "media_uniforme_7": 0.7235,
+      "nucleo_D1_D5inv": 0.5,
+      "moduladoras_5": 0.8129
+    },
+    "P4": {
+      "nombre": "Estratega",
+      "vector": [
+        "H",
+        "M",
+        "H",
+        "M",
+        "H",
+        "H",
+        "L"
+      ],
+      "centroide_diseno_v1": 0.65,
+      "direccional": [
+        0.75,
+        0.5,
+        0.75,
+        0.5,
+        0.75,
+        0.75,
+        0.75
+      ],
+      "media_uniforme_7": 0.6786,
+      "nucleo_D1_D5inv": 0.625,
+      "moduladoras_5": 0.7
+    },
+    "P5": {
+      "nombre": "Aventurero",
+      "vector": [
+        "H",
+        "L",
+        "H",
+        "M",
+        "H",
+        "M",
+        "H"
+      ],
+      "centroide_diseno_v1": 0.7,
+      "direccional": [
+        0.75,
+        0.75,
+        0.75,
+        0.5,
+        0.75,
+        0.5,
+        0.25
+      ],
+      "media_uniforme_7": 0.6071,
+      "nucleo_D1_D5inv": 0.75,
+      "moduladoras_5": 0.55
+    },
+    "P7": {
+      "nombre": "Innovador",
+      "vector": [
+        "VH",
+        "L",
+        "VH",
+        "H",
+        "VH",
+        "H",
+        "L"
+      ],
+      "centroide_diseno_v1": 0.75,
+      "direccional": [
+        0.9071,
+        0.75,
+        0.9071,
+        0.75,
+        0.9071,
+        0.75,
+        0.75
+      ],
+      "media_uniforme_7": 0.8173,
+      "nucleo_D1_D5inv": 0.8286,
+      "moduladoras_5": 0.8129
+    },
+    "P8": {
+      "nombre": "Visionario",
+      "vector": [
+        "VH",
+        "VL",
+        "VH",
+        "VH",
+        "VH",
+        "VH",
+        "VL"
+      ],
+      "centroide_diseno_v1": 0.9,
+      "direccional": [
+        0.9071,
+        0.9071,
+        0.9071,
+        0.9071,
+        0.9071,
+        0.9071,
+        0.9071
+      ],
+      "media_uniforme_7": 0.9071,
+      "nucleo_D1_D5inv": 0.9071,
+      "moduladoras_5": 0.9071
+    }
+  },
+  "calibracion_rim_n7": {
+    "P1": {
+      "nombre": "Guardián",
+      "centroide": 0.15,
+      "alfa_exacto": 4.184,
+      "orness_con_alfa_exacto": 0.15,
+      "alfa_congelado": 4.0,
+      "orness_congelado": 0.1579,
+      "desviacion_orness": 0.0079,
+      "cumple_eps_0_01": true,
+      "orness_uniforme_owa_typology": 0.0929,
+      "alfa_uniforme_owa_typology": 6.1049
+    },
+    "P2": {
+      "nombre": "Centinela",
+      "centroide": 0.25,
+      "alfa_exacto": 2.5541,
+      "orness_con_alfa_exacto": 0.25,
+      "alfa_congelado": 2.4843,
+      "orness_congelado": 0.2564,
+      "desviacion_orness": 0.0064,
+      "cumple_eps_0_01": true,
+      "orness_uniforme_owa_typology": 0.3214,
+      "alfa_uniforme_owa_typology": 1.9097
+    },
+    "P3": {
+      "nombre": "Pragmático",
+      "centroide": 0.5,
+      "alfa_exacto": 1.0,
+      "orness_con_alfa_exacto": 0.5,
+      "alfa_congelado": 0.9881,
+      "orness_congelado": 0.5034,
+      "desviacion_orness": 0.0034,
+      "cumple_eps_0_01": true,
+      "orness_uniforme_owa_typology": 0.5,
+      "alfa_uniforme_owa_typology": 1.0
+    },
+    "P6": {
+      "nombre": "Analista",
+      "centroide": 0.6,
+      "alfa_exacto": 0.695,
+      "orness_con_alfa_exacto": 0.6,
+      "alfa_congelado": 0.6949,
+      "orness_congelado": 0.6,
+      "desviacion_orness": 0.0,
+      "cumple_eps_0_01": true,
+      "orness_uniforme_owa_typology": 0.7235,
+      "alfa_uniforme_owa_typology": 0.4161
+    },
+    "P4": {
+      "nombre": "Estratega",
+      "centroide": 0.65,
+      "alfa_exacto": 0.5718,
+      "orness_con_alfa_exacto": 0.65,
+      "alfa_congelado": 0.5798,
+      "orness_congelado": 0.6466,
+      "desviacion_orness": 0.0034,
+      "cumple_eps_0_01": true,
+      "orness_uniforme_owa_typology": 0.6786,
+      "alfa_uniforme_owa_typology": 0.508
+    },
+    "P5": {
+      "nombre": "Aventurero",
+      "centroide": 0.7,
+      "alfa_exacto": 0.4631,
+      "orness_con_alfa_exacto": 0.7,
+      "alfa_congelado": 0.4771,
+      "orness_congelado": 0.6932,
+      "desviacion_orness": 0.0068,
+      "cumple_eps_0_01": true,
+      "orness_uniforme_owa_typology": 0.6071,
+      "alfa_uniforme_owa_typology": 0.6765
+    },
+    "P7": {
+      "nombre": "Innovador",
+      "centroide": 0.75,
+      "alfa_exacto": 0.3661,
+      "orness_con_alfa_exacto": 0.75,
+      "alfa_congelado": 0.3889,
+      "orness_congelado": 0.7377,
+      "desviacion_orness": 0.0123,
+      "cumple_eps_0_01": false,
+      "orness_uniforme_owa_typology": 0.8173,
+      "alfa_uniforme_owa_typology": 0.2506
+    },
+    "P8": {
+      "nombre": "Visionario",
+      "centroide": 0.9,
+      "alfa_exacto": 0.1275,
+      "orness_con_alfa_exacto": 0.9,
+      "alfa_congelado": 0.1765,
+      "orness_congelado": 0.8656,
+      "desviacion_orness": 0.0344,
+      "cumple_eps_0_01": false,
+      "orness_uniforme_owa_typology": 0.9071,
+      "alfa_uniforme_owa_typology": 0.1177
+    }
+  },
+  "perfiles_fuera_de_tolerancia": [
+    "P7",
+    "P8"
+  ],
+  "busqueda_optimizador_congelado": {
+    "configuraciones_probadas": 240,
+    "menor_error_max_alfa": 0.0539,
+    "config": {
+      "cota_inf": 0.01,
+      "cota_sup": 4.0,
+      "xatol": 0.1,
+      "objetivo": "absoluto"
+    },
+    "reproduce": false
+  },
+  "octiles_canonicos": {
+    "P1": {
+      "nombre": "Guardián",
+      "rango_k": 1,
+      "ancla": 0.0625,
+      "alfa_rim_n7": 7.9559
+    },
+    "P2": {
+      "nombre": "Centinela",
+      "rango_k": 2,
+      "ancla": 0.1875,
+      "alfa_rim_n7": 3.4182
+    },
+    "P3": {
+      "nombre": "Pragmático",
+      "rango_k": 3,
+      "ancla": 0.3125,
+      "alfa_rim_n7": 1.9768
+    },
+    "P6": {
+      "nombre": "Analista",
+      "rango_k": 4,
+      "ancla": 0.4375,
+      "alfa_rim_n7": 1.2476
+    },
+    "P4": {
+      "nombre": "Estratega",
+      "rango_k": 5,
+      "ancla": 0.5625,
+      "alfa_rim_n7": 0.7989
+    },
+    "P5": {
+      "nombre": "Aventurero",
+      "rango_k": 6,
+      "ancla": 0.6875,
+      "alfa_rim_n7": 0.489
+    },
+    "P7": {
+      "nombre": "Innovador",
+      "rango_k": 7,
+      "ancla": 0.8125,
+      "alfa_rim_n7": 0.2583
+    },
+    "P8": {
+      "nombre": "Visionario",
+      "rango_k": 8,
+      "ancla": 0.9375,
+      "alfa_rim_n7": 0.0773
+    }
+  },
+  "octiles_si_orden_uniforme": {
+    "P1": {
+      "rango_k": 1,
+      "ancla": 0.0625
+    },
+    "P2": {
+      "rango_k": 2,
+      "ancla": 0.1875
+    },
+    "P3": {
+      "rango_k": 3,
+      "ancla": 0.3125
+    },
+    "P5": {
+      "rango_k": 4,
+      "ancla": 0.4375
+    },
+    "P4": {
+      "rango_k": 5,
+      "ancla": 0.5625
+    },
+    "P6": {
+      "rango_k": 6,
+      "ancla": 0.6875
+    },
+    "P7": {
+      "rango_k": 7,
+      "ancla": 0.8125
+    },
+    "P8": {
+      "rango_k": 8,
+      "ancla": 0.9375
+    }
+  },
+  "ejemplo_3_4": {
+    "S": [
+      0.8,
+      0.6,
+      0.7,
+      0.5,
+      0.4,
+      0.3,
+      0.9
+    ],
+    "F": {
+      "P1": 0.3948,
+      "P2": 0.4539,
+      "P3": 0.602,
+      "P6": 0.66,
+      "P4": 0.6879,
+      "P5": 0.7159,
+      "P7": 0.7426,
+      "P8": 0.8193
+    },
+    "brecha": 0.4246,
+    "monotono": true
+  }
+}
