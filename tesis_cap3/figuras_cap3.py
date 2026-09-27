@@ -77,7 +77,6 @@ for i, p in enumerate(PER):
 ax.set_xticks(range(7)); ax.set_xticklabels(DIMS, fontsize=8.5)
 ax.set_yticks(range(8)); ax.set_yticklabels(PER)
 for s in ax.spines.values(): s.set_visible(True)
-ax.set_title('Vectores lingüísticos difusos de los ocho perfiles (D5 y D12 codificadas inversamente)', fontsize=10)
 cb = fig.colorbar(im, ax=ax, fraction=0.04, pad=0.02); cb.ax.yaxis.set_major_formatter(coma)
 cb.set_label('Intensidad lingüística (VL→VH)', fontsize=8.5)
 fig.tight_layout(); fig.savefig(OUT + 'fig_3_3_mapa_calor.png', dpi=300, facecolor='white'); plt.close(fig)
