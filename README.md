@@ -37,7 +37,7 @@ Python ≥ 3.10. Dependencies: numpy, scipy, matplotlib, pytest.
 | `make_figures.py` | Figures 1–3 |
 | `test_owa_typology.py` | Test suite covering the mathematical properties and the published numbers |
 | `robustness_results.json` | Machine-readable output of all analyses |
-| `instrument/` | Content-validation instrument and Delphi protocol prepared for the confirmatory phase |
+| `instrument/` | Content-validation instrument v3.1 and Delphi protocol for the confirmatory phase: `instrumento_validacion_v3_1.md` (authoritative, Spanish, identical to Appendix A of the thesis) and `content_validation_instrument.md` (English summary) |
 
 ## Reproducing the paper's numbers
 
