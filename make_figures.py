@@ -1,4 +1,4 @@
-"""Figures for the Fuzzy-OWA typology paper. Okabe-Ito palette, white background, 300 dpi.
+"""Figures for the Fuzzy-OWA typology paper. Navy-and-grey palette, white background, 300 dpi.
 Run analysis_robustness.py first (produces robustness_results.json)."""
 import json
 import numpy as np
@@ -11,7 +11,7 @@ plt.rcParams.update({
     'font.family': 'DejaVu Sans', 'font.size': 9,
     'axes.spines.top': False, 'axes.spines.right': False,
 })
-OI = ['#000000', '#E69F00', '#56B4E9', '#009E73', '#999999', '#0072B2', '#D55E00', '#CC79A7']
+OI = ['#000000', '#8C8C8C', '#9AACC2', '#4F6D8F', '#999999', '#1F3A5F', '#3F3F3F', '#8A7D72']
 
 cog = label_centroids()
 base = calibrate()

@@ -22,7 +22,7 @@ Each profile is a seven-component fuzzy linguistic vector over the behavioral di
 ```bash
 python -m pip install -r requirements.txt
 python analysis_robustness.py     # all analyses -> robustness_results.json
-python make_figures.py            # Figures 1-3 (300 dpi, Okabe-Ito, white background)
+python make_figures.py            # Figures 1-3 (300 dpi, navy-and-grey palette, white background)
 python -m pytest -q               # test suite
 ```
 

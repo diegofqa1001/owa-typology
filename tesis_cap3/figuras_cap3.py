@@ -1,7 +1,7 @@
 """Figuras 3.1, 3.2 y 3.3 de la monografía (Capítulo 3), rótulos en español y coma decimal.
 
 Datos: parámetros trapezoidales de las etiquetas (Tabla 3.1), vectores lingüísticos de los
-ocho perfiles (Tabla 3.2) y orness v1 por centroides (Tabla 3.3). Paleta Okabe-Ito, fondo
+ocho perfiles (Tabla 3.2) y orness v1 por centroides (Tabla 3.3). Paleta azul marino y grises, fondo
 blanco, 300 dpi.
 """
 import locale
@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 from matplotlib.colors import LinearSegmentedColormap
 from matplotlib.ticker import FuncFormatter
 
-OI = ['#0072B2', '#56B4E9', '#009E73', '#F0E442', '#E69F00', '#D55E00', '#CC79A7', '#000000']
+OI = ['#1F3A5F', '#9AACC2', '#4F6D8F', '#B8AE9C', '#8C8C8C', '#3F3F3F', '#8A7D72', '#000000']
 coma = FuncFormatter(lambda x, _: f'{x:.1f}'.replace('.', ','))
 plt.rcParams.update({'font.family': 'DejaVu Sans', 'axes.spines.top': False, 'axes.spines.right': False})
 OUT = 'tesis_cap3/figuras/'
@@ -67,7 +67,7 @@ VAL = {'VL': 0.09, 'L': 0.25, 'M': 0.50, 'H': 0.75, 'VH': 0.91}  # centroides de
 DIMS = ['Toler.\nriesgo (D1)', 'Aversión\npérdida (D5)', 'Auto-\neficacia (D4)', 'Toler.\nambig. (D10)',
         'Horizonte\n(D8)', 'Regul.\nemoc. (D7)', 'Influ.\nsocial (D12)']
 M = np.array([[VAL[e] for e in VEC[p].split()] for p in PER])
-cmap = LinearSegmentedColormap.from_list('oi_azul', ['#FFFFFF', '#56B4E9', '#0072B2'])
+cmap = LinearSegmentedColormap.from_list('oi_azul', ['#FFFFFF', '#9AACC2', '#1F3A5F'])
 fig, ax = plt.subplots(figsize=(8.2, 5.0), dpi=300)
 im = ax.imshow(M, cmap=cmap, vmin=0, vmax=1, aspect='auto')
 for i, p in enumerate(PER):
