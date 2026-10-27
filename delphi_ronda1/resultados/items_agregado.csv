@@ -1,0 +1,66 @@
+item,seccion,objeto,criterio,N,f1,f2,f3,f4,f5,mediana,IQR,media,pct_4o5,CVR,rwg,supera_CVR_critico_Wilson,decision
+A-D1-CLA,A,D1,CLA,14,0,0,0,9,5,4.0,1.0,4.357,100.0,1.0,0.876,True,Validado
+A-D1-REL,A,D1,REL,14,0,0,0,7,7,4.5,1.0,4.5,100.0,1.0,0.865,True,Validado
+A-D1-IND,A,D1,IND,14,0,0,1,5,8,5.0,1.0,4.5,92.9,0.857,0.788,True,Validado
+A-D1-OPE,A,D1,OPE,14,0,0,0,4,10,5.0,0.75,4.714,100.0,1.0,0.89,True,Validado
+A-D5-CLA,A,D5,CLA,14,0,0,0,8,6,4.0,1.0,4.429,100.0,1.0,0.868,True,Validado
+A-D5-REL,A,D5,REL,14,0,0,0,7,7,4.5,1.0,4.5,100.0,1.0,0.865,True,Validado
+A-D5-IND,A,D5,IND,14,0,0,0,8,6,4.0,1.0,4.429,100.0,1.0,0.868,True,Validado
+A-D5-OPE,A,D5,OPE,14,0,0,1,7,6,4.0,1.0,4.357,92.9,0.857,0.799,True,Validado
+A-D4-CLA,A,D4,CLA,14,0,0,0,7,7,4.5,1.0,4.5,100.0,1.0,0.865,True,Validado
+A-D4-REL,A,D4,REL,14,0,0,0,7,7,4.5,1.0,4.5,100.0,1.0,0.865,True,Validado
+A-D4-IND,A,D4,IND,14,0,0,0,8,6,4.0,1.0,4.429,100.0,1.0,0.868,True,Validado
+A-D4-OPE,A,D4,OPE,14,0,0,0,6,8,5.0,1.0,4.571,100.0,1.0,0.868,True,Validado
+A-D10-CLA,A,D10,CLA,14,0,0,0,8,6,4.0,1.0,4.429,100.0,1.0,0.868,True,Validado
+A-D10-REL,A,D10,REL,14,0,0,0,4,10,5.0,0.75,4.714,100.0,1.0,0.89,True,Validado
+A-D10-IND,A,D10,IND,14,0,0,2,6,6,4.0,1.0,4.286,85.7,0.714,0.736,True,Segunda ronda con retroalimentación dirigida
+A-D10-OPE,A,D10,OPE,14,0,0,0,9,5,4.0,1.0,4.357,100.0,1.0,0.876,True,Validado
+A-D8-CLA,A,D8,CLA,14,0,0,1,8,5,4.0,1.0,4.286,92.9,0.857,0.813,True,Validado
+A-D8-REL,A,D8,REL,14,0,0,1,4,9,5.0,1.0,4.571,92.9,0.857,0.791,True,Validado
+A-D8-IND,A,D8,IND,14,0,0,1,6,7,4.5,1.0,4.429,92.9,0.857,0.791,True,Validado
+A-D8-OPE,A,D8,OPE,14,0,0,1,6,7,4.5,1.0,4.429,92.9,0.857,0.791,True,Validado
+A-D7-CLA,A,D7,CLA,14,0,0,0,5,9,5.0,1.0,4.643,100.0,1.0,0.876,True,Validado
+A-D7-REL,A,D7,REL,14,0,0,0,8,6,4.0,1.0,4.429,100.0,1.0,0.868,True,Validado
+A-D7-IND,A,D7,IND,14,0,0,0,7,7,4.5,1.0,4.5,100.0,1.0,0.865,True,Validado
+A-D7-OPE,A,D7,OPE,14,0,0,4,5,5,4.0,1.75,4.071,71.4,0.429,0.657,False,Segunda ronda con retroalimentación dirigida
+A-D12-CLA,A,D12,CLA,14,0,0,1,7,6,4.0,1.0,4.357,92.9,0.857,0.799,True,Validado
+A-D12-REL,A,D12,REL,14,0,0,1,6,7,4.5,1.0,4.429,92.9,0.857,0.791,True,Validado
+A-D12-IND,A,D12,IND,14,0,0,5,5,4,4.0,1.75,3.929,64.3,0.286,0.657,False,Segunda ronda con retroalimentación dirigida
+A-D12-OPE,A,D12,OPE,14,0,0,3,4,7,4.5,1.0,4.286,78.6,0.571,0.659,True,Segunda ronda con retroalimentación dirigida
+B-P1-COH,B,P1,COH,14,0,0,1,5,8,5.0,1.0,4.5,92.9,0.857,0.788,True,Validado
+B-P1-DIF,B,P1,DIF,14,0,0,1,7,6,4.0,1.0,4.357,92.9,0.857,0.799,True,Validado
+B-P1-REP,B,P1,REP,14,0,0,1,7,6,4.0,1.0,4.357,92.9,0.857,0.799,True,Validado
+B-P1-UTI,B,P1,UTI,14,0,0,1,4,9,5.0,1.0,4.571,92.9,0.857,0.791,True,Validado
+B-P2-COH,B,P2,COH,14,0,0,1,5,8,5.0,1.0,4.5,92.9,0.857,0.788,True,Validado
+B-P2-DIF,B,P2,DIF,14,0,0,1,6,7,4.5,1.0,4.429,92.9,0.857,0.791,True,Validado
+B-P2-REP,B,P2,REP,14,0,0,1,3,10,5.0,0.75,4.643,92.9,0.857,0.799,True,Validado
+B-P2-UTI,B,P2,UTI,14,0,0,1,8,5,4.0,1.0,4.286,92.9,0.857,0.813,True,Validado
+B-P3-COH,B,P3,COH,14,0,0,0,7,7,4.5,1.0,4.5,100.0,1.0,0.865,True,Validado
+B-P3-DIF,B,P3,DIF,14,0,0,2,7,5,4.0,1.0,4.214,85.7,0.714,0.755,True,Segunda ronda con retroalimentación dirigida
+B-P3-REP,B,P3,REP,14,0,0,0,7,7,4.5,1.0,4.5,100.0,1.0,0.865,True,Validado
+B-P3-UTI,B,P3,UTI,14,0,0,0,8,6,4.0,1.0,4.429,100.0,1.0,0.868,True,Validado
+B-P6-COH,B,P6,COH,14,0,0,0,10,4,4.0,0.75,4.286,100.0,1.0,0.89,True,Validado
+B-P6-DIF,B,P6,DIF,14,0,0,0,6,8,5.0,1.0,4.571,100.0,1.0,0.868,True,Validado
+B-P6-REP,B,P6,REP,14,0,0,0,6,8,5.0,1.0,4.571,100.0,1.0,0.868,True,Validado
+B-P6-UTI,B,P6,UTI,14,0,0,0,9,5,4.0,1.0,4.357,100.0,1.0,0.876,True,Validado
+B-P4-COH,B,P4,COH,14,0,0,1,4,9,5.0,1.0,4.571,92.9,0.857,0.791,True,Validado
+B-P4-DIF,B,P4,DIF,14,0,0,1,6,7,4.5,1.0,4.429,92.9,0.857,0.791,True,Validado
+B-P4-REP,B,P4,REP,14,0,0,1,3,10,5.0,0.75,4.643,92.9,0.857,0.799,True,Validado
+B-P4-UTI,B,P4,UTI,14,0,0,1,7,6,4.0,1.0,4.357,92.9,0.857,0.799,True,Validado
+B-P5-COH,B,P5,COH,14,0,0,0,7,7,4.5,1.0,4.5,100.0,1.0,0.865,True,Validado
+B-P5-DIF,B,P5,DIF,14,0,0,0,7,7,4.5,1.0,4.5,100.0,1.0,0.865,True,Validado
+B-P5-REP,B,P5,REP,14,0,0,0,5,9,5.0,1.0,4.643,100.0,1.0,0.876,True,Validado
+B-P5-UTI,B,P5,UTI,14,0,0,0,10,4,4.0,0.75,4.286,100.0,1.0,0.89,True,Validado
+B-P7-COH,B,P7,COH,14,0,0,0,6,8,5.0,1.0,4.571,100.0,1.0,0.868,True,Validado
+B-P7-DIF,B,P7,DIF,14,0,0,5,3,6,4.0,2.0,4.071,64.3,0.286,0.58,False,Segunda ronda con retroalimentación dirigida
+B-P7-REP,B,P7,REP,14,0,0,0,8,6,4.0,1.0,4.429,100.0,1.0,0.868,True,Validado
+B-P7-UTI,B,P7,UTI,14,0,0,0,8,6,4.0,1.0,4.429,100.0,1.0,0.868,True,Validado
+B-P8-COH,B,P8,COH,14,0,0,0,7,7,4.5,1.0,4.5,100.0,1.0,0.865,True,Validado
+B-P8-DIF,B,P8,DIF,14,0,0,5,4,5,4.0,2.0,4.0,64.3,0.286,0.615,False,Segunda ronda con retroalimentación dirigida
+B-P8-REP,B,P8,REP,14,0,0,0,6,8,5.0,1.0,4.571,100.0,1.0,0.868,True,Validado
+B-P8-UTI,B,P8,UTI,14,0,0,0,8,6,4.0,1.0,4.429,100.0,1.0,0.868,True,Validado
+C-C1,C,C1,SIS,14,0,0,0,8,6,4.0,1.0,4.429,100.0,1.0,0.868,True,Validado
+C-C2,C,C2,SIS,14,0,0,0,5,9,5.0,1.0,4.643,100.0,1.0,0.876,True,Validado
+C-C3,C,C3,SIS,14,0,0,1,9,4,4.0,0.75,4.214,92.9,0.857,0.832,True,Validado
+C-C4,C,C4,SIS,14,0,0,0,6,8,5.0,1.0,4.571,100.0,1.0,0.868,True,Validado
+C-C5,C,C5,SIS,14,0,0,2,8,4,4.0,0.75,4.143,85.7,0.714,0.78,True,Segunda ronda con retroalimentación dirigida

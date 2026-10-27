@@ -9,9 +9,10 @@ monografía; la numeración de dimensiones y perfiles es la de las Tablas 3.1 y 
 
 **Estado.** El instrumento se sometió a una pre-validación computacional con un
 panel sintético de doce agentes (simulación de control del protocolo; ver
-`A-Fuzzy-OWA-Taxonomy-of-Investor-Risk-Profiles/code/panel_sintetico.py`). La
-ronda con expertos humanos está pendiente del aval del comité de ética
-institucional; sus resultados no forman parte de la monografía.
+`A-Fuzzy-OWA-Taxonomy-of-Investor-Risk-Profiles/code/panel_sintetico.py`) y se
+aplicó a un panel de expertos humanos entre el 19 y el 26 de octubre de 2026,
+con el aval del comité de ética de la sede Manizales (Acta NP 07-2026). Los
+resultados agregados de esa ronda están en `../delphi_ronda1/`.
 
 ## 1. Alcance del juicio experto
 

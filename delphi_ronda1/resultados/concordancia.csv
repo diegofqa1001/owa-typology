@@ -1,0 +1,13 @@
+grupo,seccion,n_items,m_expertos,W_corregido,W_sin_correccion,chi2,gl,p_asintotico,p_permutacion
+Panel completo,A,28,14,0.071,0.052,26.96,27,0.4657,0.4771
+Panel completo,B,32,14,0.057,0.042,24.79,31,0.7771,0.7904
+Panel completo,C,5,14,0.119,0.077,6.65,4,0.1555,0.1632
+Panel completo,Global,65,14,0.066,0.049,58.71,64,0.6633,0.6669
+Subpanel A,A,28,6,0.096,0.069,15.52,27,0.9616,0.9738
+Subpanel A,B,32,6,0.186,0.134,34.63,31,0.2987,0.2871
+Subpanel A,C,5,6,0.073,0.049,1.75,4,0.7816,0.9298
+Subpanel A,Global,65,6,0.136,0.1,52.07,64,0.8574,0.8804
+Subpanel B,A,28,8,0.125,0.091,26.93,27,0.4675,0.4647
+Subpanel B,B,32,8,0.067,0.049,16.63,31,0.9835,0.9894
+Subpanel B,C,5,8,0.261,0.165,8.36,4,0.0794,0.086
+Subpanel B,Global,65,8,0.103,0.077,52.61,64,0.8445,0.8562

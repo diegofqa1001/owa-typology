@@ -1,0 +1,43 @@
+{
+  "N_expertos": 14,
+  "subpaneles": {
+    "B": 8,
+    "A": 6
+  },
+  "n_items": 65,
+  "n_calificaciones": 910,
+  "distribucion": {
+    "1": 0,
+    "2": 0,
+    "3": 49,
+    "4": 421,
+    "5": 440
+  },
+  "pct_calificaciones_4o5": 94.6,
+  "validados": 57,
+  "segunda_ronda": [
+    "A-D10-IND",
+    "A-D7-OPE",
+    "A-D12-IND",
+    "A-D12-OPE",
+    "B-P3-DIF",
+    "B-P7-DIF",
+    "B-P8-DIF",
+    "C-C5"
+  ],
+  "revision_mayor": 0,
+  "CVR_critico_Wilson": 0.44,
+  "rwg_medio": 0.824,
+  "W_global": {
+    "grupo": "Panel completo",
+    "seccion": "Global",
+    "n_items": 65,
+    "m_expertos": 14,
+    "W_corregido": 0.066,
+    "W_sin_correccion": 0.049,
+    "chi2": 58.71,
+    "gl": 64,
+    "p_asintotico": 0.6633,
+    "p_permutacion": 0.6669
+  }
+}

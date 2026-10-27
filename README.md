@@ -38,6 +38,7 @@ Python ≥ 3.10. Dependencies: numpy, scipy, matplotlib, pytest.
 | `test_owa_typology.py` | Test suite covering the mathematical properties and the published numbers |
 | `robustness_results.json` | Machine-readable output of all analyses |
 | `instrument/` | Content-validation instrument v3.1 and Delphi protocol for the confirmatory phase: `instrumento_validacion_v3_1.md` (authoritative, Spanish, identical to Appendix A of the thesis) and `content_validation_instrument.md` (English summary) |
+| `delphi_ronda1/` | Expert-panel round (14 experts, October 2026): analysis script and aggregated results (per-item median, IQR, CVR and decision; Kendall's W by section and subpanel). The coded rating matrix is held under restricted access, as required by the ethics approval |
 
 ## Reproducing the paper's numbers
 
@@ -66,7 +67,7 @@ print(profile, round(attitude, 3), evals.round(3), ranking)
 
 ## Scope and limitations
 
-The typology is a **conceptually derived** classification (a typology, not a taxonomy): it is constructed from a synthesis of the empirical behavioral finance literature and has **not** been derived from, or validated against, investor data. The analyses in `analysis_robustness.py` establish internal properties of the formal construction — exactness, invariance, stability, discriminative power — not empirical validity. The content-validation study with a human expert panel and the empirical study with real investors are the next stages of the research program; the instrument for the former is included here.
+The typology is a **conceptually derived** classification (a typology, not a taxonomy): it is constructed from a synthesis of the empirical behavioral finance literature and has **not** been derived from, or validated against, investor data. The analyses in `analysis_robustness.py` establish internal properties of the formal construction — exactness, invariance, stability, discriminative power — not empirical validity. Content validity was assessed by a panel of fourteen human experts in a single Delphi round (October 2026): 57 of the 65 items met the pre-registered decision rule (median ≥ 4 and CVR ≥ 0.78), none required major revision, and eight remain for a targeted second round (`delphi_ronda1/`). The empirical study with real investors is the next stage of the research program.
 
 ## Citation
 
