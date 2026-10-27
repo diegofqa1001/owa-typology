@@ -8,7 +8,7 @@ Anexo A.6 de la tesis).
 ## Ronda
 
 - Instrumento: 65 ítems Likert de cinco puntos (`../instrument/instrumento_validacion_v3_1.md`).
-- Aplicación: formulario en línea, del 19 al 26 de octubre de 2026, con el aval del
+- Aplicación: formulario en línea, del 14 al 26 de octubre de 2026, con el aval del
   comité de ética de la sede Manizales de la Universidad Nacional de Colombia
   (Acta NP 07-2026) y consentimiento informado conforme a la Ley 1581 de 2012.
 - Panel analizado: 14 expertos (6 en el subpanel de contenido y 8 en el de método).
