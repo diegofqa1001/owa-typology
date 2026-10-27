@@ -38,6 +38,7 @@ Python ≥ 3.10. Dependencies: numpy, scipy, matplotlib, pytest.
 | `test_owa_typology.py` | Test suite covering the mathematical properties and the published numbers |
 | `robustness_results.json` | Machine-readable output of all analyses |
 | `instrument/` | Content-validation instrument v3.1 and Delphi protocol for the confirmatory phase: `instrumento_validacion_v3_1.md` (authoritative, Spanish, identical to Appendix A of the thesis) and `content_validation_instrument.md` (English summary) |
+| `kybernetes_a2/` | Typology-construction paper: robustness analyses under the thesis ordering rule and octile anchors (`analysis_a2.py` → `results/a2_robustness.json`) and Figure 1 (`make_figure_a2.py`) |
 | `delphi_ronda1/` | Expert-panel round (14 experts, October 2026): analysis script and aggregated results (per-item median, IQR, CVR and decision; Kendall's W by section and subpanel). The coded rating matrix is held under restricted access, as required by the ethics approval |
 
 ## Reproducing the paper's numbers

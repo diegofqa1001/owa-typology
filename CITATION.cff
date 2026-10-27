@@ -8,8 +8,8 @@ authors:
     affiliation: "Universidad Nacional de Colombia, Sede Manizales"
 license: MIT
 repository-code: "https://github.com/diegofqa1001/owa-typology"
-version: "1.0.0"
-date-released: "2026-07-29"
+version: "1.1.0"
+date-released: "2026-10-27"
 keywords:
   - fuzzy sets
   - OWA operators

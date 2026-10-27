@@ -1,0 +1,483 @@
+{
+  "cog_labels": {
+    "VL": 0.0929,
+    "L": 0.25,
+    "M": 0.5,
+    "H": 0.75,
+    "VH": 0.9071
+  },
+  "profiles": {
+    "Guardian": {
+      "vector": [
+        "VL",
+        "VH",
+        "VL",
+        "VL",
+        "VL",
+        "VL",
+        "VH"
+      ],
+      "rank_k": 1,
+      "core": 0.0929,
+      "modulators": 0.0929,
+      "equal_weight_score": 0.0929,
+      "octile_anchor": 0.0625,
+      "rim_beta": 7.9559,
+      "weights": [
+        0.0,
+        0.0,
+        0.0011,
+        0.0105,
+        0.0571,
+        0.2246,
+        0.7067
+      ]
+    },
+    "Sentinel": {
+      "vector": [
+        "L",
+        "H",
+        "M",
+        "L",
+        "M",
+        "L",
+        "H"
+      ],
+      "rank_k": 2,
+      "core": 0.25,
+      "modulators": 0.35,
+      "equal_weight_score": 0.3214,
+      "octile_anchor": 0.1875,
+      "rim_beta": 3.4182,
+      "weights": [
+        0.0013,
+        0.0125,
+        0.0414,
+        0.0924,
+        0.1689,
+        0.2738,
+        0.4096
+      ]
+    },
+    "Pragmatist": {
+      "vector": [
+        "M",
+        "M",
+        "M",
+        "M",
+        "M",
+        "M",
+        "M"
+      ],
+      "rank_k": 3,
+      "core": 0.5,
+      "modulators": 0.5,
+      "equal_weight_score": 0.5,
+      "octile_anchor": 0.3125,
+      "rim_beta": 1.9768,
+      "weights": [
+        0.0213,
+        0.0627,
+        0.1033,
+        0.1435,
+        0.1834,
+        0.2231,
+        0.2627
+      ]
+    },
+    "Analyst": {
+      "vector": [
+        "M",
+        "M",
+        "VH",
+        "H",
+        "H",
+        "H",
+        "VL"
+      ],
+      "rank_k": 4,
+      "core": 0.5,
+      "modulators": 0.8129,
+      "equal_weight_score": 0.7235,
+      "octile_anchor": 0.4375,
+      "rim_beta": 1.2476,
+      "weights": [
+        0.0882,
+        0.1213,
+        0.1379,
+        0.15,
+        0.1597,
+        0.1679,
+        0.175
+      ]
+    },
+    "Strategist": {
+      "vector": [
+        "H",
+        "M",
+        "H",
+        "M",
+        "H",
+        "H",
+        "L"
+      ],
+      "rank_k": 5,
+      "core": 0.625,
+      "modulators": 0.7,
+      "equal_weight_score": 0.6786,
+      "octile_anchor": 0.5625,
+      "rim_beta": 0.7989,
+      "weights": [
+        0.2113,
+        0.1563,
+        0.1406,
+        0.1313,
+        0.1248,
+        0.1198,
+        0.1159
+      ]
+    },
+    "Adventurer": {
+      "vector": [
+        "H",
+        "L",
+        "H",
+        "M",
+        "H",
+        "M",
+        "H"
+      ],
+      "rank_k": 6,
+      "core": 0.75,
+      "modulators": 0.55,
+      "equal_weight_score": 0.6071,
+      "octile_anchor": 0.6875,
+      "rim_beta": 0.489,
+      "weights": [
+        0.3861,
+        0.1558,
+        0.1189,
+        0.0998,
+        0.0877,
+        0.0791,
+        0.0726
+      ]
+    },
+    "Innovator": {
+      "vector": [
+        "VH",
+        "L",
+        "VH",
+        "H",
+        "VH",
+        "H",
+        "L"
+      ],
+      "rank_k": 7,
+      "core": 0.8286,
+      "modulators": 0.8129,
+      "equal_weight_score": 0.8173,
+      "octile_anchor": 0.8125,
+      "rim_beta": 0.2583,
+      "weights": [
+        0.6049,
+        0.1186,
+        0.0799,
+        0.062,
+        0.0513,
+        0.0442,
+        0.039
+      ]
+    },
+    "Visionary": {
+      "vector": [
+        "VH",
+        "VL",
+        "VH",
+        "VH",
+        "VH",
+        "VH",
+        "VL"
+      ],
+      "rank_k": 8,
+      "core": 0.9071,
+      "modulators": 0.9071,
+      "equal_weight_score": 0.9071,
+      "octile_anchor": 0.9375,
+      "rim_beta": 0.0773,
+      "weights": [
+        0.8604,
+        0.0473,
+        0.0289,
+        0.0211,
+        0.0167,
+        0.0138,
+        0.0118
+      ]
+    }
+  },
+  "R1_ordering_rule": {
+    "lexicographic_order": [
+      "Guardian",
+      "Sentinel",
+      "Pragmatist",
+      "Analyst",
+      "Strategist",
+      "Adventurer",
+      "Innovator",
+      "Visionary"
+    ],
+    "reproduces_thesis": true,
+    "equal_weight_order": [
+      "Guardian",
+      "Sentinel",
+      "Pragmatist",
+      "Adventurer",
+      "Strategist",
+      "Analyst",
+      "Innovator",
+      "Visionary"
+    ],
+    "equal_weight_core_share": 0.2857,
+    "kendall_tau_equal_vs_thesis": 0.7857,
+    "critical_core_weight_Analyst_Strategist": 0.4745,
+    "critical_core_weight_Strategist_Adventurer": 0.5455,
+    "critical_core_weight_Pragmatist_Analyst": 0.0,
+    "core_weight_interval_reproducing_thesis": [
+      0.5455,
+      1.0
+    ]
+  },
+  "R2_label_parameterisation": {
+    "baseline": {
+      "lexicographic_identical": true,
+      "tau_lex": 1.0,
+      "equal_weight_order": [
+        "Guardian",
+        "Sentinel",
+        "Pragmatist",
+        "Adventurer",
+        "Strategist",
+        "Analyst",
+        "Innovator",
+        "Visionary"
+      ],
+      "tau_equal": 0.7857
+    },
+    "equidistant_triangular": {
+      "lexicographic_identical": true,
+      "tau_lex": 1.0,
+      "equal_weight_order": [
+        "Guardian",
+        "Sentinel",
+        "Pragmatist",
+        "Adventurer",
+        "Strategist",
+        "Analyst",
+        "Innovator",
+        "Visionary"
+      ],
+      "tau_equal": 0.7857
+    },
+    "wide_overlap": {
+      "lexicographic_identical": true,
+      "tau_lex": 1.0,
+      "equal_weight_order": [
+        "Guardian",
+        "Sentinel",
+        "Pragmatist",
+        "Adventurer",
+        "Strategist",
+        "Analyst",
+        "Innovator",
+        "Visionary"
+      ],
+      "tau_equal": 0.7857
+    },
+    "narrow_overlap": {
+      "lexicographic_identical": true,
+      "tau_lex": 1.0,
+      "equal_weight_order": [
+        "Guardian",
+        "Sentinel",
+        "Pragmatist",
+        "Adventurer",
+        "Strategist",
+        "Analyst",
+        "Innovator",
+        "Visionary"
+      ],
+      "tau_equal": 0.7857
+    },
+    "skewed_conservative": {
+      "lexicographic_identical": true,
+      "tau_lex": 1.0,
+      "equal_weight_order": [
+        "Guardian",
+        "Sentinel",
+        "Pragmatist",
+        "Adventurer",
+        "Strategist",
+        "Analyst",
+        "Innovator",
+        "Visionary"
+      ],
+      "tau_equal": 0.7857
+    }
+  },
+  "R3_dimension_weighting": {
+    "within_block_lexicographic": {
+      "draws": 10000,
+      "pct_identical": 100.0
+    },
+    "global": {
+      "hierarchical": {
+        "pct_identical": 30.84,
+        "mean_tau": 0.881,
+        "p05_tau": 0.7143,
+        "mean_core_share": 0.494,
+        "pct_extremes_unchanged": 95.53,
+        "pct_only_trio_reordered_or_identical": 94.6,
+        "pct_identical_given_core_share_above_6_11": 65.7,
+        "draws_core_share_above_6_11": 4458,
+        "first_inversions_pct_of_changed": {
+          "Analyst>Strategist": 74.8,
+          "Strategist>Adventurer": 25.2
+        }
+      },
+      "flat_dirichlet": {
+        "pct_identical": 3.95,
+        "mean_tau": 0.8125,
+        "p05_tau": 0.7143,
+        "mean_core_share": 0.2863,
+        "pct_extremes_unchanged": 94.79,
+        "pct_only_trio_reordered_or_identical": 92.39,
+        "pct_identical_given_core_share_above_6_11": 34.97,
+        "draws_core_share_above_6_11": 715,
+        "first_inversions_pct_of_changed": {
+          "Analyst>Strategist": 84.6,
+          "Strategist>Adventurer": 15.4
+        }
+      }
+    }
+  },
+  "R4_leave_one_out": {
+    "D1": {
+      "identical": false,
+      "tau": 0.9286,
+      "first_inversion": "Analyst>Strategist"
+    },
+    "D5": {
+      "identical": false,
+      "tau": 0.9286,
+      "first_inversion": "Strategist>Adventurer"
+    },
+    "D4": {
+      "identical": true,
+      "tau": 1.0,
+      "first_inversion": null
+    },
+    "D10": {
+      "identical": true,
+      "tau": 1.0,
+      "first_inversion": null
+    },
+    "D8": {
+      "identical": true,
+      "tau": 1.0,
+      "first_inversion": null
+    },
+    "D7": {
+      "identical": true,
+      "tau": 1.0,
+      "first_inversion": null
+    },
+    "D12": {
+      "identical": true,
+      "tau": 1.0,
+      "first_inversion": null
+    }
+  },
+  "R5_classification_stability": {
+    "0.05": {
+      "pct_correct": 100.0,
+      "pct_within_one_rank": 100.0,
+      "mean_abs_orness_error": 0.0
+    },
+    "0.1": {
+      "pct_correct": 97.4,
+      "pct_within_one_rank": 99.5,
+      "mean_abs_orness_error": 0.004
+    },
+    "0.15": {
+      "pct_correct": 88.7,
+      "pct_within_one_rank": 96.0,
+      "mean_abs_orness_error": 0.0216
+    },
+    "0.2": {
+      "pct_correct": 77.5,
+      "pct_within_one_rank": 91.3,
+      "mean_abs_orness_error": 0.0458
+    }
+  },
+  "R6_ranking_divergence": {
+    "mean_tau_guardian_visionary": 0.1978,
+    "pct_different_top_asset": 73.9,
+    "mean_tau_pragmatist_analyst": 0.8911,
+    "pct_different_top_asset_pragmatist_analyst": 11.7,
+    "worked_example": {
+      "S": [
+        0.8,
+        0.6,
+        0.7,
+        0.5,
+        0.4,
+        0.3,
+        0.9
+      ],
+      "F": {
+        "Guardian": 0.3375,
+        "Sentinel": 0.4125,
+        "Pragmatist": 0.4875,
+        "Analyst": 0.5625,
+        "Strategist": 0.6375,
+        "Adventurer": 0.7125,
+        "Innovator": 0.7875,
+        "Visionary": 0.8625
+      },
+      "spread": 0.525,
+      "monotone_in_rank": true
+    }
+  },
+  "R7_anchor_consequence_equal_weights": {
+    "anchors_equal_weight_order": {
+      "Guardian": 0.0625,
+      "Sentinel": 0.1875,
+      "Pragmatist": 0.3125,
+      "Adventurer": 0.4375,
+      "Strategist": 0.5625,
+      "Analyst": 0.6875,
+      "Innovator": 0.8125,
+      "Visionary": 0.9375
+    },
+    "shift": {
+      "Guardian": 0.0,
+      "Sentinel": 0.0,
+      "Pragmatist": 0.0,
+      "Analyst": 0.25,
+      "Strategist": 0.0,
+      "Adventurer": -0.25,
+      "Innovator": 0.0,
+      "Visionary": 0.0
+    },
+    "profiles_affected": [
+      "Analyst",
+      "Adventurer"
+    ],
+    "max_abs_shift": 0.25
+  },
+  "checks": {
+    "max_abs_orness_error": 8.382183835919932e-14,
+    "max_abs_weight_sum_error": 0.0
+  }
+}

@@ -131,6 +131,13 @@ criterios primarios de aceptación son la mediana y el CVR.
 D12, relevancia de D12, diferenciación del Pragmático y del Aventurero y
 utilidad del Aventurero.
 
+Nota sobre el formulario aplicado (14–26 de octubre de 2026). El formulario en
+línea marcó como [PRIORITARIO] tres ítems distintos de los anteriores: la
+diferenciación del Analista, del Estratega y del Aventurero (B-P6-DIF, B-P4-DIF
+y B-P5-DIF), porque cubren la zona en la que la regla de orden es más sensible
+(sección 3.4 de la tesis). Los ítems de la lista anterior se analizaron con la
+misma regla de decisión, sin marca en el formulario.
+
 ## 5. Composición del panel
 
 Entre diez y doce expertos en dos subpaneles: Subpanel A — Contenido (n ≈ 6):
